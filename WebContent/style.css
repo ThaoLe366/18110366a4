@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+body{
+
+    padding:50%;
+    margin: 50%;
+    background-image: linear-gradient(to bottom right, pink, blue);
+    border:10rem white;
+    
+}
+#getNumber{
+   top: 50%;
+   left: 50%  ;
+    background: white;
+    width: 620px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+  
+    text-align: center;
+font-size: xx-large;
+
+border-radius:5px;
+}
+.btn{
+   
+    font-size: large;
+
+    margin: 20px 120px;
+    border: 15px 30px;
+    height: 50px;
+    width: 60%;
+
+    text-align: center;
+    border: 2px solid;
+    background-color:    dodgerblue;
+}
+ .getPara{
+    font-size: 4rem;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+input[type="text"]{
+    width: 300px;
+   padding: 1rem;
+    font-size: xx-large;
+    margin:1rem;
+    text-align: center;
+    border: 2px solid black;
+}
+.selecedItem{
+    font-size: 1.5rem;
+}
+table{
+    width: 100%;
+    border: 1px solid;
+    font-size:xx-large;
+}
+.btnDirector{
+	font-size: large;
+    margin: 20px 120px;
+    border: 15px 30px;
+    height: 50px;
+    width: 60%;
+
+    text-align: center;
+    border: 2px solid;
+    background-color:    dodgerblue;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<FORM NAME="purchaseform" 
+ METHOD=GET 
+ ACTION= "A2Control">
+   <div id="getNumber">
+        <h2>Bill pay</h2> 
+        <table>
+        <tr><td>Your email: </td> <td> <input type="text"  name="gmailUser"></td> </tr>
+        <tr><td>Quantity: </td>  <td> <INPUT TYPE="text"  NAME="quantity" /></td> </tr>
+        </table>
+       
+        <table >
+        <tr >
+           <td>   <input type="radio" id="dress" name="category" value="Dress"> Dress </td>
+           <td>  <input type="radio" id="shirt" name="category" value="Shirt"> Shirt </td>
+        </tr>
+       <tr><td></td></tr>
+         <tr>
+           <td> <input type="radio" size="8" name="sizeCloth" value="X"> X </td>
+           <td> 
+              Make by
+           </td>
+        </tr>
+        <tr><td> <input type="radio" name="sizeCloth" value="Y"> Y </td>
+        <td> <SELECT NAME="product" class="selecedItem">
+            <OPTION VALUE="YAME"  > YAME
+            <OPTION VALUE="LUNA"> LUNA
+            <OPTION VALUE="REDSHOP" SELECTED> REDSHOP  <!-- MUTIPLE- for your multible choise -->
+            </SELECT>
+       </td></tr>
+        <tr><td> <input type="radio" size="8" name="sizeCloth" value="Z"> Z </td>
+        <td><input type="checkbox" id="isBill" name="bill" value="male"> Print Bill</td>
+        </tr>
+        </table>
+        
+        <br>
+        <INPUT TYPE="submit" class="btn" VALUE="SUBMIT">
+        </div>
+        
+       
+   
+</FORM>
+</body>
+</html>
